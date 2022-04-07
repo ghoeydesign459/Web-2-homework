@@ -24,9 +24,9 @@
     "\/deploy\/img\/Buttons\/Button-1.png" : {
       "ft" : 32768,
       "iS" : 18727,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/img\/Buttons\/Button-1.png",
-      "oF" : 0,
+      "oF" : 1,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -37,9 +37,9 @@
     "\/deploy\/img\/Buttons\/Button-2.png" : {
       "ft" : 32768,
       "iS" : 18298,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/img\/Buttons\/Button-2.png",
-      "oF" : 0,
+      "oF" : 1,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -50,9 +50,9 @@
     "\/deploy\/img\/Footer\/Call.svg" : {
       "ft" : 2097152,
       "miP" : 0,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/deploy\/img\/Footer\/Call.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
@@ -60,9 +60,9 @@
     "\/deploy\/img\/Footer\/Facebook.svg" : {
       "ft" : 2097152,
       "miP" : 0,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/deploy\/img\/Footer\/Facebook.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
@@ -70,9 +70,9 @@
     "\/deploy\/img\/Footer\/Instagram.svg" : {
       "ft" : 2097152,
       "miP" : 0,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/deploy\/img\/Footer\/Instagram.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
@@ -80,9 +80,9 @@
     "\/deploy\/img\/Footer\/Store.svg" : {
       "ft" : 2097152,
       "miP" : 0,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/deploy\/img\/Footer\/Store.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
@@ -90,9 +90,9 @@
     "\/deploy\/img\/Footer\/Twitter.svg" : {
       "ft" : 2097152,
       "miP" : 0,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/deploy\/img\/Footer\/Twitter.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
@@ -100,9 +100,9 @@
     "\/deploy\/img\/Footer\/Youtube.svg" : {
       "ft" : 2097152,
       "miP" : 0,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/deploy\/img\/Footer\/Youtube.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
@@ -110,9 +110,9 @@
     "\/deploy\/img\/Gallery-1\/BigGallery-1.png" : {
       "ft" : 32768,
       "iS" : 701740,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/img\/Gallery-1\/BigGallery-1.png",
-      "oF" : 0,
+      "oF" : 1,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -123,9 +123,9 @@
     "\/deploy\/img\/Gallery-1\/BigGallery-2.png" : {
       "ft" : 32768,
       "iS" : 260163,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/img\/Gallery-1\/BigGallery-2.png",
-      "oF" : 0,
+      "oF" : 1,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -136,9 +136,9 @@
     "\/deploy\/img\/Gallery-1\/BigGallery-3.png" : {
       "ft" : 32768,
       "iS" : 197224,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/img\/Gallery-1\/BigGallery-3.png",
-      "oF" : 0,
+      "oF" : 1,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -149,9 +149,9 @@
     "\/deploy\/img\/Gallery-2\/Gallery-1 1.png" : {
       "ft" : 32768,
       "iS" : 86172,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/img\/Gallery-2\/Gallery-1 1.png",
-      "oF" : 0,
+      "oF" : 1,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -162,9 +162,9 @@
     "\/deploy\/img\/Gallery-2\/Gallery-2.png" : {
       "ft" : 32768,
       "iS" : 72521,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/img\/Gallery-2\/Gallery-2.png",
-      "oF" : 0,
+      "oF" : 1,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -175,9 +175,9 @@
     "\/deploy\/img\/Gallery-2\/Gallery-3.png" : {
       "ft" : 32768,
       "iS" : 58133,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/img\/Gallery-2\/Gallery-3.png",
-      "oF" : 0,
+      "oF" : 1,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -188,9 +188,9 @@
     "\/deploy\/img\/Gallery-2\/Gallery-4.png" : {
       "ft" : 32768,
       "iS" : 87552,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/img\/Gallery-2\/Gallery-4.png",
-      "oF" : 0,
+      "oF" : 1,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -201,9 +201,9 @@
     "\/deploy\/img\/Gallery-2\/Gallery-5.png" : {
       "ft" : 32768,
       "iS" : 116743,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/img\/Gallery-2\/Gallery-5.png",
-      "oF" : 0,
+      "oF" : 1,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -214,9 +214,9 @@
     "\/deploy\/img\/Header\/LanvinHeaderLogo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/deploy\/img\/Header\/LanvinHeaderLogo.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
@@ -224,9 +224,9 @@
     "\/deploy\/img\/Hero\/Arrow.svg" : {
       "ft" : 2097152,
       "miP" : 0,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/deploy\/img\/Hero\/Arrow.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
@@ -234,9 +234,9 @@
     "\/deploy\/img\/Hero\/Lanvin-Hero.png" : {
       "ft" : 32768,
       "iS" : 740927,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/img\/Hero\/Lanvin-Hero.png",
-      "oF" : 0,
+      "oF" : 1,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
@@ -247,9 +247,9 @@
     "\/deploy\/img\/Search\/Shape.svg" : {
       "ft" : 2097152,
       "miP" : 0,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/deploy\/img\/Search\/Shape.svg",
-      "oF" : 0,
+      "oF" : 1,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
@@ -273,245 +273,52 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/content\/Buttons\/Button-1.png" : {
-      "ft" : 32768,
-      "iS" : 18727,
+    "\/dev\/global\/buttons.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/content\/Buttons\/Button-1.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
+      "oAP" : "\/dev\/global\/buttons.html",
+      "oF" : 0
     },
-    "\/dev\/content\/Buttons\/Button-2.png" : {
-      "ft" : 32768,
-      "iS" : 18298,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/Buttons\/Button-2.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dev\/content\/Footer\/Call.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dev\/content\/Footer\/Call.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/dev\/content\/Footer\/Facebook.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dev\/content\/Footer\/Facebook.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/dev\/content\/Footer\/Instagram.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dev\/content\/Footer\/Instagram.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/dev\/content\/Footer\/Store.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dev\/content\/Footer\/Store.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/dev\/content\/Footer\/Twitter.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dev\/content\/Footer\/Twitter.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/dev\/content\/Footer\/Youtube.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dev\/content\/Footer\/Youtube.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/dev\/content\/Gallery-1\/BigGallery-1.png" : {
-      "ft" : 32768,
-      "iS" : 701740,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/Gallery-1\/BigGallery-1.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dev\/content\/Gallery-1\/BigGallery-2.png" : {
-      "ft" : 32768,
-      "iS" : 260163,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/Gallery-1\/BigGallery-2.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dev\/content\/Gallery-1\/BigGallery-3.png" : {
-      "ft" : 32768,
-      "iS" : 197224,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/Gallery-1\/BigGallery-3.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dev\/content\/Gallery-2\/Gallery-1 1.png" : {
-      "ft" : 32768,
-      "iS" : 86172,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/Gallery-2\/Gallery-1 1.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dev\/content\/Gallery-2\/Gallery-2.png" : {
-      "ft" : 32768,
-      "iS" : 72521,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/Gallery-2\/Gallery-2.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dev\/content\/Gallery-2\/Gallery-3.png" : {
-      "ft" : 32768,
-      "iS" : 58133,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/Gallery-2\/Gallery-3.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dev\/content\/Gallery-2\/Gallery-4.png" : {
-      "ft" : 32768,
-      "iS" : 87552,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/Gallery-2\/Gallery-4.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dev\/content\/Gallery-2\/Gallery-5.png" : {
-      "ft" : 32768,
-      "iS" : 116743,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/Gallery-2\/Gallery-5.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dev\/content\/Header\/LanvinHeaderLogo.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dev\/content\/Header\/LanvinHeaderLogo.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/dev\/content\/Hero\/Arrow.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dev\/content\/Hero\/Arrow.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/dev\/content\/Hero\/Lanvin-Hero.png" : {
-      "ft" : 32768,
-      "iS" : 740927,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/Hero\/Lanvin-Hero.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dev\/content\/Search\/Shape.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dev\/content\/Search\/Shape.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+    "\/dev\/global\/buttons.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/global\/buttons.html",
+      "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/global\/footer.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/gallery-2.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/global\/gallery-2.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/gallery.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/global\/gallery.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/gallery.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/global\/gallery.html",
       "oF" : 0
     },
     "\/dev\/global\/head.kit" : {
@@ -534,7 +341,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/global\/hero.html",
       "oF" : 0
     },
@@ -550,7 +357,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/global\/search.html",
       "oF" : 0
     },
