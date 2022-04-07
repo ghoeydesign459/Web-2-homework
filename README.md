@@ -1,2 +1,2 @@
-# Web-2-homework
-Web 2 Homework Assignments
+# Web-2-in-class
+In Class Demo Web 2
