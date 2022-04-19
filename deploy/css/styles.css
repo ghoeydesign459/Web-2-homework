@@ -358,10 +358,6 @@ template {
 /* =============
     Buttons
 ============= */
-button {
-  border: none;
-}
-
 /* =============
     Forms
 ============= */
@@ -387,10 +383,85 @@ textarea {
     Header
 ============= */
 header {
-  color: red;
-  font-size: 0.75rem;
+  grid-area: header;
+  background-color: #3D3646;
+  padding: 16px auto 16px;
 }
 
 /* =============
     Footer
 ============= */
+footer {
+  grid-area: footer;
+  grid-template-columns: 3;
+  background-color: #889BAC;
+  padding: 16px auto 16px;
+}
+footer h1 {
+  color: white;
+}
+footer p {
+  color: white;
+}
+footer h2 {
+  color: white;
+}
+
+/* =============
+    Search
+============= */
+search {
+  padding: 16px auto 16px;
+}
+search section nav img {
+  padding: 16px auto 16px;
+  grid-area: search;
+}
+/* =============
+    Hero
+============= */
+hero {
+  display: grid;
+  grid-area: hero;
+}
+hero section img {
+  width: 100%;
+}
+hero section h2 {
+  padding: 16px auto 16px;
+}
+hero section nav img {
+  padding: 16px auto 16px;
+}
+
+/* =============
+    Gallery
+============= */
+gallery {
+  grid-area: gallery;
+  padding: 16px auto 16px;
+}
+gallery img {
+  padding: 16px auto 16px;
+  width: 100%;
+}
+
+/* =============
+    Gallery
+============= */
+gallery-2 {
+  grid-area: gallery-2;
+  padding: 16px auto 16px;
+}
+gallery-2 img {
+  width: 100%;
+}
+/* =============
+    Buttons
+============= */
+buttons {
+  display: grid;
+  grid-template-columns: 3;
+  grid-area: buttons;
+  background-color: #B8C3C9;
+}

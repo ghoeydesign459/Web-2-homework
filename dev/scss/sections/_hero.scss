@@ -1,0 +1,27 @@
+/* =============
+    Hero
+============= */
+hero{
+    display: grid;
+    grid-area: hero;
+    
+    section{
+        img{
+            width: 100%;
+        }
+        h2{
+            padding: 16px auto 16px;
+        }
+        p{
+        }
+        h1{
+    
+        }
+        nav{
+            img{
+                padding: 16px auto 16px;
+            }
+        }
+      }
+    }
+        
