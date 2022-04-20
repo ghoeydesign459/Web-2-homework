@@ -1,11 +1,13 @@
 /* =============
     Gallery
 ============= */
-gallery{
+#gallery{
     grid-area: gallery;
-    padding: 16px auto 16px;
-    img{
-        padding: 16px auto 16px;
-        width: 100%;
+    grid-template-areas: ". global-content .";
+    li{
+        img{
+            width: 390px;
+            
+        }
     }
   }

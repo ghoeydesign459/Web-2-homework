@@ -3,9 +3,7 @@
 ============= */
 footer{
     grid-area: footer;
-    grid-template-columns: 3;
     background-color: #889BAC;
-    padding: 16px auto 16px;
 
     h1{
         color: white;
@@ -16,5 +14,9 @@ footer{
     }
     h2{
         color: white;  
+    }
+    img{
+        grid-area: footer;
+        width: 8%;
     }
   }

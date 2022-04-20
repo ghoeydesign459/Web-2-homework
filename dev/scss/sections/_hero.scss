@@ -1,16 +1,14 @@
 /* =============
     Hero
 ============= */
-hero{
-    display: grid;
+#hero{
     grid-area: hero;
-    
-    section{
+    grid-template-areas: ". global-content .";
         img{
-            width: 100%;
+            width: 390px;
         }
         h2{
-            padding: 16px auto 16px;
+            grid-template-columns: 3;
         }
         p{
         }
@@ -19,9 +17,9 @@ hero{
         }
         nav{
             img{
-                padding: 16px auto 16px;
+                width: 3%;
             }
         }
       }
-    }
+
         

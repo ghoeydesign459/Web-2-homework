@@ -273,12 +273,44 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/global\/buttons.kit" : {
+    "\/dev\/content\/buttons.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/global\/buttons.html",
+      "oAP" : "\/dev\/content\/buttons.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/gallery-2.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/gallery-2.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/gallery.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/gallery.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/hero.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/search.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/search.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -287,22 +319,6 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/global\/footer.html",
-      "oF" : 0
-    },
-    "\/dev\/global\/gallery-2.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/global\/gallery-2.html",
-      "oF" : 0
-    },
-    "\/dev\/global\/gallery.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/global\/gallery.html",
       "oF" : 0
     },
     "\/dev\/global\/head.kit" : {
@@ -321,28 +337,12 @@
       "oAP" : "\/dev\/global\/header.html",
       "oF" : 0
     },
-    "\/dev\/global\/hero.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/global\/hero.html",
-      "oF" : 0
-    },
     "\/dev\/global\/scripts.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/global\/scripts.html",
-      "oF" : 0
-    },
-    "\/dev\/global\/search.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/global\/search.html",
       "oF" : 0
     },
     "\/dev\/index.kit" : {
