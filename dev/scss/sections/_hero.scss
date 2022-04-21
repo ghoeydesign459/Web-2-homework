@@ -4,13 +4,16 @@
 #hero{
     grid-area: hero;
     grid-template-areas: ". global-content .";
-        img{
-            width: 390px;
-        }
-        h2{
+        li{
+            h2{
             grid-template-columns: 3;
+            grid-template-areas: hero;
         }
         p{
+        }
+    }
+        img{
+            width: 390px;
         }
         h1{
     

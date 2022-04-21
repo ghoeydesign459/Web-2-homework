@@ -396,6 +396,9 @@ header {
   background-color: #3D3646;
   padding: 16px auto 16px;
 }
+header img {
+  padding: 16px;
+}
 
 /* =============
     Footer
@@ -428,11 +431,12 @@ footer img {
   grid-area: hero;
   grid-template-areas: ". global-content .";
 }
+#hero li h2 {
+  grid-template-columns: 3;
+  grid-template-areas: hero;
+}
 #hero img {
   width: 390px;
-}
-#hero h2 {
-  grid-template-columns: 3;
 }
 #hero nav img {
   width: 3%;
@@ -460,9 +464,17 @@ footer img {
   grid-template-rows: 1;
   grid-template-columns: 3;
 }
-#gallery-2 img {
+#gallery-2 header li img {
   grid-template-columns: 1;
+  grid-template-rows: 1;
+  grid-template-areas: ". global-content .";
   width: 390px;
+}
+#gallery-2 header li h1 p {
+  grid-area: gallery-2;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". global-content .";
+  width: 100%;
 }
 /* =============
     Buttons
