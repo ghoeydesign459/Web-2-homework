@@ -424,6 +424,9 @@ footer img {
 /* =============
     Search
 ============= */
+#search {
+  display: grid;
+}
 /* =============
     Hero
 ============= */
@@ -448,6 +451,7 @@ footer img {
 #gallery {
   grid-area: gallery;
   grid-template-areas: ". global-content .";
+  grid-area: image;
 }
 #gallery li img {
   width: 390px;
@@ -458,7 +462,7 @@ footer img {
 ============= */
 #gallery-2 {
   grid-area: gallery-2;
-  grid-template-columns: 16px auto 16px;
+  grid-template-columns: 100%;
   grid-template-areas: ". global-content .";
   background-color: #F8F9FA;
   grid-template-rows: 1;
@@ -482,6 +486,7 @@ footer img {
 #buttons {
   display: grid;
   grid-area: buttons;
+  grid-template-columns: 100%;
   grid-template-areas: ". global-content .";
   grid-template-columns: 1;
   grid-template-rows: 1;
@@ -489,4 +494,8 @@ footer img {
 #buttons li {
   background-color: #B8C3C9;
   padding: 16px auto 16px;
+  grid-template-columns: 100%;
+  grid-template-areas: ". global-content .";
+  grid-template-columns: 1;
+  grid-template-rows: 1;
 }

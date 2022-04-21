@@ -4,7 +4,8 @@
 #buttons{
 display: grid;
 grid-area: buttons;
-grid-template-areas: ". global-content .";
+grid-template-columns: 100%;
+    grid-template-areas: ". global-content .";
 grid-template-columns: 1;
 grid-template-rows: 1;
 img{   
@@ -12,6 +13,10 @@ img{
 li{
     background-color: #B8C3C9;
     padding: 16px auto 16px;
+    grid-template-columns: 100%;
+    grid-template-areas: ". global-content .";
+    grid-template-columns: 1;
+grid-template-rows: 1;
     h1{
     }
         nav{
