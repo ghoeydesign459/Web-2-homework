@@ -20,7 +20,7 @@
         h1{
             p{
             grid-area: gallery-2;
-            grid-template-columns: 16px auto 16px;
+            grid-template-columns: 100%;
             grid-template-areas: ". global-content .";
             width: 100%;
                 button{

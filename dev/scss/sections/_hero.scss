@@ -6,8 +6,9 @@
     grid-template-areas: ". global-content .";
         li{
             h2{
-            grid-template-columns: 3;
+                grid-template-columns: 100%;
             grid-template-areas: hero;
+            
         }
         p{
         }
@@ -20,7 +21,7 @@
         }
         nav{
             img{
-                width: 3%;
+                width: 5%;
             }
         }
       }

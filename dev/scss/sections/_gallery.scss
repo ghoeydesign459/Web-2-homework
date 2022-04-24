@@ -4,11 +4,11 @@
 #gallery{
     grid-area: gallery;
     grid-template-areas: ". global-content .";
-    grid-area: image;
+    div{
+    }
     li{
         img{
             width: 390px;
-            
         }
     }
   }
