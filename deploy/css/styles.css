@@ -463,17 +463,8 @@ footer img {
   grid-template-rows: 1;
   grid-template-columns: 3;
 }
-#gallery-2 header li img {
-  grid-template-columns: 1;
-  grid-template-rows: 1;
-  grid-template-areas: ". global-content .";
+#gallery-2 section div li img {
   width: 390px;
-}
-#gallery-2 header li h1 p {
-  grid-area: gallery-2;
-  grid-template-columns: 100%;
-  grid-template-areas: ". global-content .";
-  width: 100%;
 }
 /* =============
     Buttons
@@ -486,4 +477,7 @@ footer img {
   display: grid;
   grid-template-columns: 70% auto;
   background-color: #B8C3C9;
+}
+#buttons .subclass li img {
+  width: 100%;
 }

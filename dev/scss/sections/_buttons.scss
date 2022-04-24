@@ -4,9 +4,11 @@
 #buttons{
 display: grid;
 grid-area: buttons;
-
     .subclass{
         li{
+            img{
+                width: 100%;
+            }
         display: grid;
         grid-template-columns: 70% auto;
         background-color: #B8C3C9;
