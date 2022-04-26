@@ -464,12 +464,12 @@ footer section img {
     width: 1025px;
   }
 }
+#hero img {
+  width: 390px;
+}
 #hero li h2 {
   grid-template-columns: 100%;
   grid-template-areas: hero;
-}
-#hero img {
-  width: 390px;
 }
 #hero nav img {
   width: 100%;

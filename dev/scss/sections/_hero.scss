@@ -23,7 +23,10 @@
 
     grid-area: hero;
     grid-template-areas: ". global-content .";
-        li{
+    img{
+        width: 390px;
+    } 
+    li{
             h2{
                 grid-template-columns: 100%;
             grid-template-areas: hero;
@@ -32,9 +35,6 @@
         p{
         }
     }
-        img{
-            width: 390px;
-        }
         h1{
     
         }
