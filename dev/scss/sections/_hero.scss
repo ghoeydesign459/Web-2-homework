@@ -2,6 +2,25 @@
     Hero
 ============= */
 #hero{
+    img{
+        width: 770px;
+    }
+    @include md{
+        display: grid;
+        grid-template-columns: 20% auto;
+        grid-template-rows: repeat(2);
+    }
+
+    @include lg{
+        img{
+            width: 1025px;
+        }
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: repeat(2);
+        
+        }
+
     grid-area: hero;
     grid-template-areas: ". global-content .";
         li{
@@ -21,7 +40,7 @@
         }
         nav{
             img{
-                width: 5%;
+                width: 100%;
             }
         }
       }

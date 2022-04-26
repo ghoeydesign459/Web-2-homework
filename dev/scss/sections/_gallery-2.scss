@@ -2,15 +2,28 @@
     Gallery
 ============= */
 #gallery-2{
+    @include md{
+
+        display: grid;
+        grid-template-columns: 50% auto;
+        grid-template-rows: (2,148px);
+        background-color: #F8F9FA;
+        }
+    
+        @include lg{
+            
+            display: grid;
+            grid-template-columns: auto 25% auto;
+            grid-template-rows: (3, 393px);
+            background-color: #F8F9FA;
+            }
     grid-area: gallery-2;
     grid-template-columns: 100%;
     grid-template-areas: ". global-content .";
     background-color: #F8F9FA;
-    grid-template-rows: 1;
-    grid-template-columns: 3;
+
     header{     
     }
-
     section{
         div{
             li{
@@ -27,5 +40,4 @@
             }
         }
     }
-        
 }

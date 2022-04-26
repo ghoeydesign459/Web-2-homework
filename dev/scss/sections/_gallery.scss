@@ -11,4 +11,13 @@
             width: 390px;
         }
     }
-  }
+    @include md{
+        display: grid;
+        grid-template-columns: auto 80% auto;
+        img{
+            width: 100%;
+            grid-template-rows: 2;
+        }
+    }
+    }
+  

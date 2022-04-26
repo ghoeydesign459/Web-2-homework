@@ -15,4 +15,17 @@ grid-area: buttons;
         }
     }
 
+    @include md{
+        display: grid;
+        grid-template-columns: auto 80% auto;
+        grid-template-rows: (2,148px);
+    }
+
+    @include lg{
+        display: grid;
+        grid-template-columns: 50% auto;
+        grid-template-rows: (2,148px);
+    }
+
+    
 }

@@ -357,6 +357,12 @@ template {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". global-content .";
 }
+.subclass {
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-areas: ". global-content .";
+}
+
 /* =============
     Typography
 ============= */
@@ -403,18 +409,26 @@ footer {
   grid-area: footer;
   background-color: #889BAC;
 }
-footer h1 {
+footer section h1 {
   color: white;
 }
-footer p {
+footer section p {
   color: white;
 }
-footer h2 {
+footer section h2 {
   color: white;
 }
-footer img {
+footer section img {
   grid-area: footer;
-  width: 8%;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  footer {
+    display: grid;
+    grid-template-areas: ". global-content .";
+    grid-template-columns: 50% auto;
+    grid-template-rows: repeat(2);
+  }
 }
 
 /* =============
@@ -430,6 +444,26 @@ footer img {
   grid-area: hero;
   grid-template-areas: ". global-content .";
 }
+#hero img {
+  width: 770px;
+}
+@media (min-width: 768px) {
+  #hero {
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-template-rows: repeat(2);
+  }
+}
+@media (min-width: 1024px) {
+  #hero {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(2);
+  }
+  #hero img {
+    width: 1025px;
+  }
+}
 #hero li h2 {
   grid-template-columns: 100%;
   grid-template-areas: hero;
@@ -438,7 +472,7 @@ footer img {
   width: 390px;
 }
 #hero nav img {
-  width: 5%;
+  width: 100%;
 }
 
 /* =============
@@ -451,6 +485,16 @@ footer img {
 #gallery li img {
   width: 390px;
 }
+@media (min-width: 768px) {
+  #gallery {
+    display: grid;
+    grid-template-columns: auto 80% auto;
+  }
+  #gallery img {
+    width: 100%;
+    grid-template-rows: 2;
+  }
+}
 
 /* =============
     Gallery
@@ -460,8 +504,22 @@ footer img {
   grid-template-columns: 100%;
   grid-template-areas: ". global-content .";
   background-color: #F8F9FA;
-  grid-template-rows: 1;
-  grid-template-columns: 3;
+}
+@media (min-width: 768px) {
+  #gallery-2 {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: 2, 148px;
+    background-color: #F8F9FA;
+  }
+}
+@media (min-width: 1024px) {
+  #gallery-2 {
+    display: grid;
+    grid-template-columns: auto 25% auto;
+    grid-template-rows: 3, 393px;
+    background-color: #F8F9FA;
+  }
 }
 #gallery-2 section div li img {
   width: 390px;
@@ -480,4 +538,18 @@ footer img {
 }
 #buttons .subclass li img {
   width: 100%;
+}
+@media (min-width: 768px) {
+  #buttons {
+    display: grid;
+    grid-template-columns: auto 80% auto;
+    grid-template-rows: 2, 148px;
+  }
+}
+@media (min-width: 1024px) {
+  #buttons {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: 2, 148px;
+  }
 }

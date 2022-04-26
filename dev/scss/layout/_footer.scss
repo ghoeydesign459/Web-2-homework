@@ -4,19 +4,26 @@
 footer{
     grid-area: footer;
     background-color: #889BAC;
-
-    h1{
-        color: white;
+    section{
+        h1{
+            color: white;
+        }
+        p{
+            color: white; 
+            
+        }
+        h2{
+            color: white;  
+        }
+        img{
+            grid-area: footer;
+            width: 100%;
+        }
     }
-    p{
-        color: white; 
-        
-    }
-    h2{
-        color: white;  
-    }
-    img{
-        grid-area: footer;
-        width: 8%;
+    @include md{
+        display: grid;
+        grid-template-areas: ". global-content .";
+        grid-template-columns: 50% auto;
+        grid-template-rows: repeat(2);
     }
   }
