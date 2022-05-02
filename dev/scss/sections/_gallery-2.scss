@@ -1,43 +1,63 @@
 /* =============
     Gallery
 ============= */
-#gallery-2{
-    @include md{
+#gallery-2 {
 
-        display: grid;
-        grid-template-columns: 50% auto;
-        grid-template-rows: (2,148px);
-        background-color: #F8F9FA;
-        }
-    
-        @include lg{
-            
-            display: grid;
-            grid-template-columns: auto 25% auto;
-            grid-template-rows: (3, 393px);
-            background-color: #F8F9FA;
-            }
-    grid-area: gallery-2;
-    grid-template-columns: 100%;
-    grid-template-areas: ". global-content .";
-    background-color: #F8F9FA;
+  article{
+      section{
+          display: grid;
+      }
+  }
 
-    header{     
-    }
-    section{
-        div{
-            li{
-                img{
-                    width: 390px;
-                }
-                h1{
-                    p{
-                        button{
+    // article{
+    //     display: grid;
+    //     grid-template-areas: ". gallery2-content .";
+    //     grid-template-columns: 16px auto 16px;
 
-                        }
-                    }
-                }
-            }
-        }
-    }
+    //         div{
+    //             grid-area: hero-content;
+    //             border: 1px solid red;
+    //     }
+
+    // @include md {
+    //     display: grid;
+    //     grid-template-columns: 50% auto;
+    //     grid-template-rows: (2, 148px);
+    //     background-color: #F8F9FA;
+    // }
+
+    // @include lg {
+
+    //     display: grid;
+    //     grid-template-columns: auto 20% auto;
+    //     grid-template-rows: (3, 300px);
+    //     background-color: #F8F9FA;
+    // }
+
+    // grid-area: gallery-2;
+    // grid-template-columns: 100%;
+    // grid-template-areas: ". global-content .";
+    // background-color: #F8F9FA;
+    // }
 }
+
+
+//     header{     
+//     }
+//     section{
+//         div{
+//             li{
+//                 img{
+//                     width: 390px;
+//                 }
+//                 h1{
+//                     p{
+//                         button{
+
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }

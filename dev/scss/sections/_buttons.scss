@@ -1,31 +1,52 @@
 /* =============
     Buttons
 ============= */
-#buttons{
-display: grid;
-grid-area: buttons;
-    .subclass{
-        li{
-            img{
-                width: 100%;
-            }
+#buttons {
+
+    @include xl{
         display: grid;
-        grid-template-columns: 70% auto;
-        background-color: #B8C3C9;
+        grid-template-columns: auto 1440px auto;
+        grid-template-areas: ". buttons .";
+    }
+
+    >div{
+
+        @include md{
+            display: grid;
+            grid-template-columns: 50% auto;
+
+        }
+
+        @include xl{
+            grid-area: buttons;
+        }
+
+        .button-content{
+            padding: 16px;
         }
     }
+    // display: grid;
+    // grid-area: buttons;
 
-    @include md{
-        display: grid;
-        grid-template-columns: auto 80% auto;
-        grid-template-rows: (2,148px);
-    }
+    // @include md {
+    //     display: grid;
+    //     grid-template-columns: auto 80% auto;
+    //     grid-template-rows: (2, 1fr);
+    // }
 
-    @include lg{
-        display: grid;
-        grid-template-columns: 50% auto;
-        grid-template-rows: (2,148px);
-    }
+    // div {
+    //     display: grid;
+    //     grid-template-columns: 75% auto;
+    //     border: 1px solid red;
+    // }
 
-    
+    // section {
+        
+    // }
+
+    // aside {
+    //     img {
+    //         width: 103px;
+    //     }
+    // }
 }

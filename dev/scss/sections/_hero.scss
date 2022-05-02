@@ -2,47 +2,56 @@
     Hero
 ============= */
 #hero{
-    img{
-        width: 770px;
-    }
-    @include md{
-        display: grid;
-        grid-template-columns: 20% auto;
-        grid-template-rows: repeat(2);
-    }
-
-    @include lg{
+    // grid-area: hero;
+    // grid-template-areas: ". global-content .";
+    // grid-template-columns: 50% auto;
+    #hero-img{
         img{
-            width: 1025px;
-        }
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: repeat(2);
-        
-        }
-
-    grid-area: hero;
-    grid-template-areas: ". global-content .";
-    img{
-        width: 390px;
-    } 
-    li{
-            h2{
-                grid-template-columns: 100%;
-            grid-template-areas: hero;
-            
-        }
-        p{
+            width: 100%;
         }
     }
-        h1{
-    
-        }
-        nav{
-            img{
-                width: 100%;
+
+        article{
+            display: grid;
+            grid-template-areas: ". hero-content .";
+            grid-template-columns: 16px auto 16px;
+
+            @include xl{
+        display: grid;
+        grid-template-columns: auto 1440px auto;
+        grid-template-areas: ". hero-content .";
+            }
+           
+
+            >div{
+                grid-area: hero-content;
+                // border: 1px solid red;
+   
+
+                @include md{
+                    display: grid;
+                    grid-template-columns: 50% auto;
+
+                    @include xl{
+                        grid-area: hero-content;
+                    }
+                }
             }
         }
-      }
+  
+    // @include md{
+    //     display: grid;
+    //     grid-template-columns: 50% auto;
+    // }
+
+    // @include lg{
+    //     display: grid;
+    //     grid-template-columns: 50% 50%;
+    //     grid-template-rows: repeat(2, 1fr);
+        
+        
+    //   }
+      
+    }
 
         

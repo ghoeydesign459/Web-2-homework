@@ -352,20 +352,72 @@ template {
 /* =============
     Base
 ============= */
-.grid-global {
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
+.global-content {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". global-content .";
 }
-.subclass {
-  display: grid;
-  grid-template-columns: 2;
-  grid-template-areas: ". global-content .";
+@media (min-width: 1200px) {
+  .global-content {
+    grid-template-columns: auto 1440px auto;
+  }
+}
+.global-content > div {
+  grid-area: global-content;
+}
+
+.spacing {
+  margin-top: 32px;
+}
+@media (min-width: 768px) {
+  .spacing {
+    margin-top: 64px;
+  }
+}
+@media (min-width: 1024px) {
+  .spacing {
+    margin-top: 64px;
+  }
+}
+
+.show-for-lg {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .show-for-lg {
+    display: block;
+  }
+}
+.show-for-lg .show-for-xl {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .show-for-lg .show-for-xl {
+    display: block;
+  }
 }
 
 /* =============
     Typography
 ============= */
+h1, h2, h3, h4, h5 {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
 /* =============
     Buttons
 ============= */
@@ -420,7 +472,7 @@ footer section h2 {
 }
 footer section img {
   grid-area: footer;
-  width: 100%;
+  width: 27px;
 }
 @media (min-width: 768px) {
   footer {
@@ -434,45 +486,37 @@ footer section img {
 /* =============
     Search
 ============= */
-#search {
-  display: grid;
-}
 /* =============
     Hero
 ============= */
-#hero {
-  grid-area: hero;
-  grid-template-areas: ". global-content .";
+#hero #hero-img img {
+  width: 100%;
 }
-#hero img {
-  width: 770px;
+#hero article {
+  display: grid;
+  grid-template-areas: ". hero-content .";
+  grid-template-columns: 16px auto 16px;
+}
+@media (min-width: 1200px) {
+  #hero article {
+    display: grid;
+    grid-template-columns: auto 1440px auto;
+    grid-template-areas: ". hero-content .";
+  }
+}
+#hero article > div {
+  grid-area: hero-content;
 }
 @media (min-width: 768px) {
-  #hero {
+  #hero article > div {
     display: grid;
-    grid-template-columns: 20% auto;
-    grid-template-rows: repeat(2);
+    grid-template-columns: 50% auto;
   }
 }
-@media (min-width: 1024px) {
-  #hero {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: repeat(2);
+@media (min-width: 768px) and (min-width: 1200px) {
+  #hero article > div {
+    grid-area: hero-content;
   }
-  #hero img {
-    width: 1025px;
-  }
-}
-#hero img {
-  width: 390px;
-}
-#hero li h2 {
-  grid-template-columns: 100%;
-  grid-template-areas: hero;
-}
-#hero nav img {
-  width: 100%;
 }
 
 /* =============
@@ -480,76 +524,45 @@ footer section img {
 ============= */
 #gallery {
   grid-area: gallery;
-  grid-template-areas: ". global-content .";
-}
-#gallery li img {
-  width: 390px;
 }
 @media (min-width: 768px) {
-  #gallery {
+  #gallery ul {
     display: grid;
-    grid-template-columns: auto 80% auto;
+    grid-template-columns: 50% auto;
   }
-  #gallery img {
-    width: 100%;
-    grid-template-rows: 2;
-  }
+}
+#gallery ul li img {
+  width: 100%;
 }
 
 /* =============
     Gallery
 ============= */
-#gallery-2 {
-  grid-area: gallery-2;
-  grid-template-columns: 100%;
-  grid-template-areas: ". global-content .";
-  background-color: #F8F9FA;
+#gallery-2 article section {
+  display: grid;
 }
-@media (min-width: 768px) {
-  #gallery-2 {
-    display: grid;
-    grid-template-columns: 50% auto;
-    grid-template-rows: 2, 148px;
-    background-color: #F8F9FA;
-  }
-}
-@media (min-width: 1024px) {
-  #gallery-2 {
-    display: grid;
-    grid-template-columns: auto 25% auto;
-    grid-template-rows: 3, 393px;
-    background-color: #F8F9FA;
-  }
-}
-#gallery-2 section div li img {
-  width: 390px;
-}
+
 /* =============
     Buttons
 ============= */
-#buttons {
-  display: grid;
-  grid-area: buttons;
-}
-#buttons .subclass li {
-  display: grid;
-  grid-template-columns: 70% auto;
-  background-color: #B8C3C9;
-}
-#buttons .subclass li img {
-  width: 100%;
+@media (min-width: 1200px) {
+  #buttons {
+    display: grid;
+    grid-template-columns: auto 1440px auto;
+    grid-template-areas: ". buttons .";
+  }
 }
 @media (min-width: 768px) {
-  #buttons {
-    display: grid;
-    grid-template-columns: auto 80% auto;
-    grid-template-rows: 2, 148px;
-  }
-}
-@media (min-width: 1024px) {
-  #buttons {
+  #buttons > div {
     display: grid;
     grid-template-columns: 50% auto;
-    grid-template-rows: 2, 148px;
   }
+}
+@media (min-width: 1200px) {
+  #buttons > div {
+    grid-area: buttons;
+  }
+}
+#buttons > div .button-content {
+  padding: 16px;
 }
