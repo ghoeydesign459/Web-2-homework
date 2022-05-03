@@ -3,42 +3,48 @@
 ============= */
 #gallery-2 {
 
-  article{
-      section{
-          display: grid;
-      }
-  }
 
-    // article{
-    //     display: grid;
-    //     grid-template-areas: ". gallery2-content .";
-    //     grid-template-columns: 16px auto 16px;
 
-    //         div{
-    //             grid-area: hero-content;
-    //             border: 1px solid red;
-    //     }
+    article {
+        display: grid;
+        grid-template-areas: ". gallery2-content .";
+        grid-template-columns: 16px auto 16px;
 
-    // @include md {
-    //     display: grid;
-    //     grid-template-columns: 50% auto;
-    //     grid-template-rows: (2, 148px);
-    //     background-color: #F8F9FA;
-    // }
 
-    // @include lg {
+        div {
+            grid-area: hero-content;
+            grid-template-areas: ". gallery2-content .";
+            padding: 24px;
+            grid-template-columns: 16px auto 16px;
+            border: 1px solid red;
+        }
 
-    //     display: grid;
-    //     grid-template-columns: auto 20% auto;
-    //     grid-template-rows: (3, 300px);
-    //     background-color: #F8F9FA;
-    // }
+        @include md {
+            display: grid;
+            grid-template-columns: 50% auto;
+            grid-template-rows: (2, 148px);
+            background-color: #F8F9FA;
+        }
 
-    // grid-area: gallery-2;
-    // grid-template-columns: 100%;
-    // grid-template-areas: ". global-content .";
-    // background-color: #F8F9FA;
-    // }
+        @include lg {
+            display: grid;
+            grid-template-columns: auto 20% auto;
+            grid-template-rows: (3, 1fr);
+            background-color: #F8F9FA;
+        }
+
+        @include xl {
+            display: grid;
+            grid-template-columns: auto 20% auto;
+            grid-template-rows: (3, 1fr);
+            background-color: #F8F9FA;
+        }
+
+        grid-area: gallery-2;
+        rid-template-columns: 100%;
+        grid-template-areas: ". global-content .";
+        background-color: #F8F9FA;
+    }
 }
 
 
