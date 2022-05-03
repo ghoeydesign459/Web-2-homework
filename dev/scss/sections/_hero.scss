@@ -2,6 +2,16 @@
     Hero
 ============= */
 #hero{
+
+    h2{
+        font-weight: 400;
+        font-size: rem-calc(24);
+    }
+
+    p{
+        font-weight: 300;
+        font-size: rem-calc(16);
+    }
     // grid-area: hero;
     // grid-template-areas: ". global-content .";
     // grid-template-columns: 50% auto;
@@ -12,6 +22,7 @@
     }
 
         article{
+
             display: grid;
             grid-template-areas: ". hero-content .";
             grid-template-columns: 16px auto 16px;

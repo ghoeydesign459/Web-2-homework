@@ -3,7 +3,23 @@
 ============= */
 #gallery-2 {
 
+    header{
+        font-weight: 300;
+        font-size: rem-calc(28);
+        margin-bottom: 16px;
+    }
+    h1{
+        font-weight: 400;
+        font-size: rem-calc(24);
+    }
 
+    p{
+        font-weight: 300;
+        font-size: rem-calc(16);
+        @include md{
+            margin-top: 24px;
+        }
+    }
 
     article {
         display: grid;

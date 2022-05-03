@@ -2,13 +2,11 @@
     Search
 ============= */
 #search {
-// display: grid;
+    div{
+        margin: 16px 0;
 
-//     section {
-//         nav {
-//             img {
-
-//             }
-//         }
-//     }
+        @include md{
+            margin: 16px 0 18px;
+        }
+    }
 }

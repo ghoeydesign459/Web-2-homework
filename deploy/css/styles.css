@@ -461,6 +461,20 @@ footer {
   grid-area: footer;
   background-color: #889BAC;
 }
+footer h1 {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 16px;
+}
+footer h2 {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 48px;
+}
+footer p {
+  font-weight: 300;
+  font-size: 0.75rem;
+}
 footer section h1 {
   color: white;
 }
@@ -486,9 +500,26 @@ footer section img {
 /* =============
     Search
 ============= */
+#search div {
+  margin: 16px 0;
+}
+@media (min-width: 768px) {
+  #search div {
+    margin: 16px 0 18px;
+  }
+}
+
 /* =============
     Hero
 ============= */
+#hero h2 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+#hero p {
+  font-weight: 300;
+  font-size: 1rem;
+}
 #hero #hero-img img {
   width: 100%;
 }
@@ -532,12 +563,31 @@ footer section img {
   }
 }
 #gallery ul li img {
+  margin-top: 40px;
   width: 100%;
 }
 
 /* =============
     Gallery
 ============= */
+#gallery-2 header {
+  font-weight: 300;
+  font-size: 1.75rem;
+  margin-bottom: 16px;
+}
+#gallery-2 h1 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+#gallery-2 p {
+  font-weight: 300;
+  font-size: 1rem;
+}
+@media (min-width: 768px) {
+  #gallery-2 p {
+    margin-top: 24px;
+  }
+}
 #gallery-2 article {
   display: grid;
   grid-template-areas: ". gallery2-content .";
@@ -582,6 +632,16 @@ footer section img {
 /* =============
     Buttons
 ============= */
+#buttons h1 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+#buttons .button-1 {
+  background-color: #B8C3C9;
+}
+#buttons .button-2 {
+  background-color: #B8C3C9;
+}
 @media (min-width: 1200px) {
   #buttons {
     display: grid;

@@ -2,6 +2,24 @@
     Footer
 ============= */
 footer {
+
+    h1{
+        font-weight: 600;
+        font-size: rem-calc(20);
+        margin-bottom: 16px;
+    }
+
+    h2{
+        font-weight: 400;
+        font-size: rem-calc(16);
+        margin-bottom: 48px;
+    }
+
+    p{
+        font-weight: 300;
+        font-size: rem-calc(12);
+    }
+
     grid-area: footer;
     background-color: #889BAC;
 
