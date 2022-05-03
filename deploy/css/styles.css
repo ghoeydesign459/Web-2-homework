@@ -523,6 +523,12 @@ footer section img {
 #hero #hero-img img {
   width: 100%;
 }
+#hero #lanvin-1 {
+  background-color: #BE9168;
+}
+#hero #lanvin-2 {
+  background-color: #C4A787;
+}
 #hero article {
   display: grid;
   grid-template-areas: ". hero-content .";
@@ -636,10 +642,10 @@ footer section img {
   font-weight: 400;
   font-size: 1.5rem;
 }
-#buttons .button-1 {
+#buttons #button-1 {
   background-color: #B8C3C9;
 }
-#buttons .button-2 {
+#buttons #button-2 {
   background-color: #B8C3C9;
 }
 @media (min-width: 1200px) {
