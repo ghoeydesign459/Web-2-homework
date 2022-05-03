@@ -3,23 +3,25 @@
 ============= */
 #gallery-2 {
 
-    header{
+    header {
         font-weight: 300;
         font-size: rem-calc(28);
         margin-bottom: 16px;
         text-align: left;
     }
-    h1{
+
+    h1 {
         font-weight: 400;
         font-size: rem-calc(24);
         text-align: left;
     }
 
-    p{
+    p {
         font-weight: 300;
         font-size: rem-calc(16);
         text-align: left;
-        @include md{
+
+        @include md {
             margin-top: 24px;
         }
     }
@@ -28,30 +30,31 @@
         display: grid;
         grid-template-areas: ". gallery2-content .";
         grid-template-columns: 16px auto 16px;
-li{
-    @include md{
-        display: grid;
-    grid-template-areas: 
-    ". c1 c1 c2 c2 ."
-    ". c3 c3 c4 c4 ."
-    ". . c5 c5 . .";
-    column-gap: 16px;
-    row-gap: 16px;
-    background-color: #F8F9FA;
-}
 
-@include lg{
-    display: grid;
-    grid-template-areas: 
-    ". card1 card1 card2 card2 card3 card3 ."
-    ". . card4 card4 card5 card5 . .";
-    column-gap: 16px;
-    row-gap: 16px;
-    background-color: #F8F9FA;
+        li {
+            @include md {
+                display: grid;
+                grid-template-areas:
+                    ". c1 c1 c2 c2 ."
+                    ". c3 c3 c4 c4 ."
+                    ". . c5 c5 . .";
+                column-gap: 16px;
+                row-gap: 16px;
+                background-color: #F8F9FA;
+            }
+
+            @include lg {
+                display: grid;
+                grid-template-areas:
+                    ". card1 card1 card2 card2 card3 card3 ."
+                    ". . card4 card4 card5 card5 . .";
+                column-gap: 16px;
+                row-gap: 16px;
+                background-color: #F8F9FA;
+            }
+        }
+
     }
-}
-        
-}
 }
 
 
