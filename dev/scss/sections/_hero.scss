@@ -6,11 +6,13 @@
     h2{
         font-weight: 400;
         font-size: rem-calc(24);
+        text-align: left;
     }
 
     p{
         font-weight: 300;
         font-size: rem-calc(16);
+        text-align: left;
     }
     // grid-area: hero;
     // grid-template-areas: ". global-content .";

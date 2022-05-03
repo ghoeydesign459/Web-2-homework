@@ -465,15 +465,18 @@ footer h1 {
   font-weight: 600;
   font-size: 1.25rem;
   margin-bottom: 16px;
+  text-align: left;
 }
 footer h2 {
   font-weight: 400;
   font-size: 1rem;
   margin-bottom: 48px;
+  text-align: left;
 }
 footer p {
   font-weight: 300;
   font-size: 0.75rem;
+  text-align: left;
 }
 footer section h1 {
   color: white;
@@ -515,10 +518,12 @@ footer section img {
 #hero h2 {
   font-weight: 400;
   font-size: 1.5rem;
+  text-align: left;
 }
 #hero p {
   font-weight: 300;
   font-size: 1rem;
+  text-align: left;
 }
 #hero #hero-img img {
   width: 100%;
@@ -580,14 +585,17 @@ footer section img {
   font-weight: 300;
   font-size: 1.75rem;
   margin-bottom: 16px;
+  text-align: left;
 }
 #gallery-2 h1 {
   font-weight: 400;
   font-size: 1.5rem;
+  text-align: left;
 }
 #gallery-2 p {
   font-weight: 300;
   font-size: 1rem;
+  text-align: left;
 }
 @media (min-width: 768px) {
   #gallery-2 p {
@@ -641,6 +649,7 @@ footer section img {
 #buttons h1 {
   font-weight: 400;
   font-size: 1.5rem;
+  text-align: left;
 }
 #buttons #button-1 {
   background-color: #B8C3C9;
