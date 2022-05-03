@@ -28,42 +28,30 @@
         display: grid;
         grid-template-areas: ". gallery2-content .";
         grid-template-columns: 16px auto 16px;
+li{
+    @include md{
+        display: grid;
+    grid-template-areas: 
+    ". c1 c1 c2 c2 ."
+    ". c3 c3 c4 c4 ."
+    ". . c5 c5 . .";
+    column-gap: 16px;
+    row-gap: 16px;
+    background-color: #F8F9FA;
+}
 
-
-        div {
-            grid-area: hero-content;
-            grid-template-areas: ". gallery2-content .";
-            padding: 24px;
-            grid-template-columns: 16px auto 16px;
-            border: 1px solid red;
-        }
-
-        @include md {
-            display: grid;
-            grid-template-columns: 50% auto;
-            grid-template-rows: (2, 148px);
-            background-color: #F8F9FA;
-        }
-
-        @include lg {
-            display: grid;
-            grid-template-columns: auto 20% auto;
-            grid-template-rows: (3, 1fr);
-            background-color: #F8F9FA;
-        }
-
-        @include xl {
-            display: grid;
-            grid-template-columns: auto 20% auto;
-            grid-template-rows: (3, 1fr);
-            background-color: #F8F9FA;
-        }
-
-        grid-area: gallery-2;
-        rid-template-columns: 100%;
-        grid-template-areas: ". global-content .";
-        background-color: #F8F9FA;
+@include lg{
+    display: grid;
+    grid-template-areas: 
+    ". card1 card1 card2 card2 card3 card3 ."
+    ". . card4 card4 card5 card5 . .";
+    column-gap: 16px;
+    row-gap: 16px;
+    background-color: #F8F9FA;
     }
+}
+        
+}
 }
 
 
