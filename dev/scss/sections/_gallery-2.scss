@@ -31,7 +31,12 @@
         grid-template-areas: ". gallery2-content .";
         grid-template-columns: 16px auto 16px;
 
+        @include xxl{
+            grid-template-columns: auto 1440px auto;
+        }
+
         ul {
+            grid-area: gallery2-content;
             @include md {
                 display: grid;
                 grid-template-areas:
@@ -39,6 +44,7 @@
                     ". c3 c3 c4 c4 ."
                     ". . c5 c5 . .";
                 gap: 16px;
+    
                 
             }
 

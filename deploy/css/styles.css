@@ -419,7 +419,11 @@ p {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Palanquin", sans-serif;
+}
+
+h1 {
+  font-family: "Palanquin Dark", sans-serif;
 }
 
 /* =============
@@ -496,12 +500,17 @@ footer section img {
   grid-area: footer;
   width: 27px;
 }
+footer section img form {
+  padding-top: 48px;
+  padding-bottom: 16px;
+}
 @media (min-width: 768px) {
   footer {
     display: grid;
     grid-template-areas: ". global-content .";
     grid-template-columns: 50% auto;
     grid-template-rows: repeat(2);
+    padding-bottom: 38px;
   }
 }
 
@@ -575,17 +584,17 @@ footer section img {
 @media (min-width: 768px) {
   #gallery ul {
     display: grid;
-    grid-template-areas: ". i1 i1 i2 i2 ." ". i1 i1 i2 i2 ." ". i1 i1 i2 i2 .";
+    grid-template-areas: "i1 i1 i2 i2" "i1 i1 i2 i2" "i1 i1 i2 i2";
   }
 }
 @media (min-width: 1024px) {
   #gallery ul {
-    grid-template-areas: ". i1 i1 i2 i2 ." ". i1 i1 i2 i2 ." ". i1 i1 i2 i2 .";
+    grid-template-areas: "i1 i1 i1 i2" "i1 i1 i1 i2" "i1 i1 i1 i2";
   }
 }
 @media (min-width: 1200px) {
   #gallery ul {
-    grid-template-areas: ". i1 i1 i2 i2 ." ". i1 i1 i2 i3 ." ". i1 i1 i2 i3 .";
+    grid-template-areas: "i1 i3 i2 i3" "i1 i1 i3 i3" "i1 i1 i3 i3";
   }
 }
 #gallery ul li img {
@@ -636,6 +645,14 @@ footer section img {
   display: grid;
   grid-template-areas: ". gallery2-content .";
   grid-template-columns: 16px auto 16px;
+}
+@media (min-width: 1440px) {
+  #gallery-2 article {
+    grid-template-columns: auto 1440px auto;
+  }
+}
+#gallery-2 article ul {
+  grid-area: gallery2-content;
 }
 @media (min-width: 768px) {
   #gallery-2 article ul {
@@ -747,12 +764,19 @@ footer section img {
   font-weight: 400;
   font-size: 1.5rem;
   text-align: left;
+  padding-bottom: 6px;
 }
 #buttons #button-1 {
   background-color: #B8C3C9;
 }
+#buttons #button-1 button {
+  padding-bottom: 6px;
+}
 #buttons #button-2 {
   background-color: #B8C3C9;
+}
+#buttons #button-2 button {
+  padding-bottom: 6px;
 }
 @media (min-width: 1200px) {
   #buttons {

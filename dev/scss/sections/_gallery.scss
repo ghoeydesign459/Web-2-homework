@@ -8,25 +8,25 @@
             @include md {
                 display: grid;
                 grid-template-areas:
-                    ". i1 i1 i2 i2 ."
-                    ". i1 i1 i2 i2 ."
-                    ". i1 i1 i2 i2 ."
+                    "i1 i1 i2 i2"
+                    "i1 i1 i2 i2"
+                    "i1 i1 i2 i2"
             }
 
             @include lg {
 
                 grid-template-areas:
-                    ". i1 i1 i2 i2 ."
-                    ". i1 i1 i2 i2 ."
-                    ". i1 i1 i2 i2 ."
+                    "i1 i1 i1 i2"
+                    "i1 i1 i1 i2"
+                    "i1 i1 i1 i2"
             }
 
             @include xl {
 
                 grid-template-areas:
-                    ". i1 i1 i2 i2 ."
-                    ". i1 i1 i2 i3 ."
-                    ". i1 i1 i2 i3 ."
+                    "i1 i3 i2 i3"
+                    "i1 i1 i3 i3"
+                    "i1 i1 i3 i3"
             }
             
             li{
