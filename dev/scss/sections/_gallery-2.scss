@@ -31,29 +31,115 @@
         grid-template-areas: ". gallery2-content .";
         grid-template-columns: 16px auto 16px;
 
-        li {
+        ul {
             @include md {
                 display: grid;
                 grid-template-areas:
                     ". c1 c1 c2 c2 ."
                     ". c3 c3 c4 c4 ."
                     ". . c5 c5 . .";
-                column-gap: 16px;
-                row-gap: 16px;
-                background-color: #F8F9FA;
+                gap: 16px;
+                
             }
 
             @include lg {
-                display: grid;
+
                 grid-template-areas:
-                    ". card1 card1 card2 card2 card3 card3 ."
-                    ". . card4 card4 card5 card5 . .";
-                column-gap: 16px;
-                row-gap: 16px;
-                background-color: #F8F9FA;
+                    ". c1 c1 c2 c2 c3 c3 ."
+                    ". . c4 c4 c5 c5 . .";
+
+
+            }
+
+            li {
+
+            }
+
+            #c1 {
+                @include md {
+                    grid-area: c1;
+                    background-color: #F8F9FA;
+                }
+
+                @include lg {
+                    grid-area: c1;
+                    background-color: #F8F9FA;
+                }
+
+                @include xl {
+                    grid-area: c1;
+                    background-color: #F8F9FA;
+                }
+            }
+
+            #c2 {
+                @include md {
+                    grid-area: c2;
+                    background-color: #F8F9FA;
+                }
+
+                @include lg {
+                    grid-area: c2;
+                    background-color: #F8F9FA;
+                }
+
+                @include xl {
+                    grid-area: c2;
+                    background-color: #F8F9FA;
+                }
+            }
+
+            #c3 {
+                @include md {
+                    grid-area: c3;
+                    background-color: #F8F9FA;
+                }
+
+                @include lg {
+                    grid-area: c3;
+                    background-color: #F8F9FA;
+                }
+
+                @include xl {
+                    grid-area: c3;
+                    background-color: #F8F9FA;
+                }
+            }
+
+            #c4 {
+                @include md {
+                    grid-area: c4;
+                    background-color: #F8F9FA;
+                }
+
+                @include lg {
+                    grid-area: c4;
+                    background-color: #F8F9FA;
+                }
+
+                @include xl {
+                    grid-area: c4;
+                    background-color: #F8F9FA;
+                }
+            }
+
+            #c5 {
+                @include md {
+                    grid-area: c5;
+                    background-color: #F8F9FA;
+                }
+
+                @include lg {
+                    grid-area: c5;
+                    background-color: #F8F9FA;
+                }
+
+                @include xl {
+                    grid-area: c5;
+                    background-color: #F8F9FA;
+                }
             }
         }
-
     }
 }
 

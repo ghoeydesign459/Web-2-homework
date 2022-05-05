@@ -5,17 +5,51 @@
     grid-area: gallery;
 
         ul{
-            @include md{
+            @include md {
                 display: grid;
-                grid-template-columns: 50% auto;
+                grid-template-areas:
+                    ". i1 i1 i2 i2 ."
+                    ". i1 i1 i2 i2 ."
+                    ". i1 i1 i2 i2 ."
             }
+
+            @include lg {
+
+                grid-template-areas:
+                    ". i1 i1 i2 i2 ."
+                    ". i1 i1 i2 i2 ."
+                    ". i1 i1 i2 i2 ."
+            }
+
+            @include xl {
+
+                grid-template-areas:
+                    ". i1 i1 i2 i2 ."
+                    ". i1 i1 i2 i3 ."
+                    ". i1 i1 i2 i3 ."
+            }
+            
             li{
                 img{
                     margin-top: 40px;
                     width: 100%;
                 }
-            } 
+            }
+
+                #i1 {
+                    @include md {
+                        grid-area: i1;
+                    }
+                    #i2 {
+                        @include md {
+                            grid-area: i2;
+                        }
+                        #i3 {
+                            @include md {
+                                grid-area: i2;
+                            }
+                    }
+                }
+            }
         }
-    }
-    
-  
+            }
