@@ -17,6 +17,7 @@ input{
         margin-bottom: 16px;
         text-align: left;
         padding-top: 36px;
+        margin-left: 24px;
     }
 
     h2{
@@ -24,12 +25,14 @@ input{
         font-size: rem-calc(16);
         margin-bottom: 48px;
         text-align: left;
+        margin-left: 24px;
     }
 
     p{
         font-weight: 300;
         font-size: rem-calc(12);
         text-align: left;
+        margin-left: 24px;
     }
 
     grid-area: footer;
@@ -55,6 +58,7 @@ input{
             padding-bottom: 6px;
             grid-area: footer;
             width: 27px;
+            margin-left: 24px;
 
             form{
                 padding-top: 48px;
