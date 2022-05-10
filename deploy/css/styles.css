@@ -554,6 +554,8 @@ footer section img form {
   border-radius: 5px;
   background-color: #BE9168;
   margin-left: 12px;
+  height: 50px;
+  width: 60px;
 }
 @media (min-width: 768px) {
   #search div button {
@@ -561,7 +563,7 @@ footer section img form {
   }
 }
 #search div button img {
-  width: 100%;
+  width: 70%;
   align-items: center;
 }
 
