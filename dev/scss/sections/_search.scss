@@ -2,11 +2,33 @@
     Search
 ============= */
 #search {
+
+    input{
+        border: none;
+        background-color: transparent;
+    }
+
     div{
         margin: 16px 0;
 
         @include md{
             margin: 16px 0 18px;
+        }
+        button{
+            border: none;
+            border-radius: 5px;
+            background-color: #BE9168;
+            margin-left: 12px;
+
+            @include md{
+                margin-left: 12px;
+            }
+
+            img{
+                width: 100%;
+                align-items: center;
+            }
+            
         }
     }
 }

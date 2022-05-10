@@ -5,8 +5,10 @@
     grid-area: gallery;
 
         ul{
+            display: grid;
+
             @include md {
-                display: grid;
+                
                 grid-template-areas:
                     "i1 i1 i2 i2"
                     "i1 i1 i2 i2"
@@ -30,23 +32,29 @@
             }
             
             li{
-                img{
-                    margin-top: 40px;
-                    width: 100%;
-                }
+background-size: cover;
             }
 
                 #i1 {
+                    background-image: url("../img/Gallery-1/BigGallery-1.png");
+                    background-position: center;
+
                     @include md {
                         grid-area: i1;
                     }
                     #i2 {
+                        background-image: url("../img/Gallery-1/BigGallery-2.png");
+                        background-position: center;
+
                         @include md {
                             grid-area: i2;
                         }
                         #i3 {
+                            background-image: url("../img/Gallery-1/BigGallery-3.png");
+                            background-position: center;
+
                             @include md {
-                                grid-area: i2;
+                                grid-area: i3;
                             }
                     }
                 }
