@@ -45,7 +45,7 @@ background-size: cover;
                     background-image: url("../img/Gallery-1/BigGallery-1.png");
                     background-position: center;
 
-                    @include md {
+                    @include xl {
                         background-position: center;
                         grid-area: i1;
                     }
@@ -54,7 +54,8 @@ background-size: cover;
                         background-image: url("../img/Gallery-1/BigGallery-2.png");
                         background-position: center;
 
-                        @include md {
+                        @include xl {
+                            background-position: center top;
                             grid-area: i2;
                         }
                     }
@@ -62,7 +63,7 @@ background-size: cover;
                             background-image: url("../img/Gallery-1/BigGallery-3.png");
                             background-position: center;
 
-                            @include md {
+                            @include xl {
                                 background-position: center;
                                 grid-area: i3;
                             }

@@ -673,7 +673,7 @@ footer section img form {
   background-image: url("../img/Gallery-1/BigGallery-1.png");
   background-position: center;
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   #gallery ul #i1 {
     background-position: center;
     grid-area: i1;
@@ -683,8 +683,9 @@ footer section img form {
   background-image: url("../img/Gallery-1/BigGallery-2.png");
   background-position: center;
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   #gallery ul #i2 {
+    background-position: center top;
     grid-area: i2;
   }
 }
@@ -692,7 +693,7 @@ footer section img form {
   background-image: url("../img/Gallery-1/BigGallery-3.png");
   background-position: center;
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   #gallery ul #i3 {
     background-position: center;
     grid-area: i3;
@@ -707,16 +708,19 @@ footer section img form {
   font-size: 1.75rem;
   margin-bottom: 16px;
   text-align: left;
+  margin-left: 12px;
 }
 #gallery-2 h1 {
   font-weight: 400;
   font-size: 1.5rem;
   text-align: left;
+  margin-left: 12px;
 }
 #gallery-2 p {
   font-weight: 300;
   font-size: 1rem;
   text-align: left;
+  margin-left: 12px;
 }
 @media (min-width: 768px) {
   #gallery-2 p {
@@ -734,7 +738,13 @@ footer section img form {
   }
 }
 #gallery-2 article button {
+  font-weight: 700;
+  font-size: 0.875rem;
   margin-top: 48px;
+  margin-left: 12px;
+  margin-bottom: 12px;
+  background-color: #B8C3C9;
+  border: none;
 }
 #gallery-2 article ul {
   grid-area: gallery2-content;
@@ -744,6 +754,9 @@ footer section img form {
     display: grid;
     grid-template-areas: ". c1 c1 c2 c2 ." ". c3 c3 c4 c4 ." ". . c5 c5 . .";
     gap: 16px;
+  }
+  #gallery-2 article ul img {
+    width: 100%;
   }
 }
 @media (min-width: 1024px) {

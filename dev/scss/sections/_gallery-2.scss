@@ -8,18 +8,21 @@
         font-size: rem-calc(28);
         margin-bottom: 16px;
         text-align: left;
+        margin-left: 12px;
     }
 
     h1 {
         font-weight: 400;
         font-size: rem-calc(24);
         text-align: left;
+        margin-left: 12px;
     }
 
     p {
         font-weight: 300;
         font-size: rem-calc(16);
         text-align: left;
+        margin-left: 12px;
 
         @include md {
             margin-top: 24px;
@@ -35,7 +38,13 @@
             grid-template-columns: auto 1440px auto;
         }
 button{
+    font-weight:700;
+        font-size: rem-calc(14);
     margin-top: 48px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+    background-color: #B8C3C9;
+    border: none;
 }
         ul {
             grid-area: gallery2-content;
@@ -46,8 +55,9 @@ button{
                     ". c3 c3 c4 c4 ."
                     ". . c5 c5 . .";
                 gap: 16px;
-    
-                
+                img{
+                    width: 100%;
+                }
             }
 
             @include lg {
