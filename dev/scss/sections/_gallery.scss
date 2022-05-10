@@ -10,35 +10,24 @@
             display: grid;
             grid-template-rows: 50vh 75vh;
 
-            @include lg{
-                padding-top: 40px;
-            }
-
             @include md {
                 grid-template-rows: 50vh;
-                grid-template-areas: 
-                    "i1 i1 i2 i2"
-                    "i1 i1 i2 i2"
-                    "i1 i1 i2 i2"
+                grid-template-columns: 60% auto;
             }
 
-            @include lg {
-                grid-template-areas:
-                    "i1 i1 i1 i2"
-                    "i1 i1 i1 i2"
-                    "i1 i1 i1 i2"
-            }
+        
 
             @include xl {
-                grid-template-rows: 30vh 30vh;
+                grid-template-rows: 75vh 20vh 50vh;
+                grid-template-columns: repeat(4, 1fr);
                 grid-template-areas:
-                    "i1 i3 i2 i3"
+                    "i1 i1 i2 i2"
                     "i1 i1 i3 i3"
                     "i1 i1 i3 i3"
             }
             
             li{
-background-size: cover;
+                background-size: cover;
             }
 
                 #i1 {
@@ -46,7 +35,7 @@ background-size: cover;
                     background-position: center;
 
                     @include xl {
-                        background-position: center;
+                        background-position: right center;
                         grid-area: i1;
                     }
                 }
@@ -55,7 +44,7 @@ background-size: cover;
                         background-position: center;
 
                         @include xl {
-                            background-position: center top;
+                            background-position: center;
                             grid-area: i2;
                         }
                     }

@@ -650,26 +650,17 @@ footer section img form {
   display: grid;
   grid-template-rows: 50vh 75vh;
 }
-@media (min-width: 1024px) {
-  #gallery ul {
-    padding-top: 40px;
-  }
-}
 @media (min-width: 768px) {
   #gallery ul {
     grid-template-rows: 50vh;
-    grid-template-areas: "i1 i1 i2 i2" "i1 i1 i2 i2" "i1 i1 i2 i2";
-  }
-}
-@media (min-width: 1024px) {
-  #gallery ul {
-    grid-template-areas: "i1 i1 i1 i2" "i1 i1 i1 i2" "i1 i1 i1 i2";
+    grid-template-columns: 60% auto;
   }
 }
 @media (min-width: 1200px) {
   #gallery ul {
-    grid-template-rows: 30vh 30vh;
-    grid-template-areas: "i1 i3 i2 i3" "i1 i1 i3 i3" "i1 i1 i3 i3";
+    grid-template-rows: 75vh 20vh 50vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "i1 i1 i2 i2" "i1 i1 i3 i3" "i1 i1 i3 i3";
   }
 }
 #gallery ul li {
@@ -681,7 +672,7 @@ footer section img form {
 }
 @media (min-width: 1200px) {
   #gallery ul #i1 {
-    background-position: center;
+    background-position: right center;
     grid-area: i1;
   }
 }
@@ -691,7 +682,7 @@ footer section img form {
 }
 @media (min-width: 1200px) {
   #gallery ul #i2 {
-    background-position: center top;
+    background-position: center;
     grid-area: i2;
   }
 }
