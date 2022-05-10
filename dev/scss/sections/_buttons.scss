@@ -44,6 +44,13 @@
 
         .button-content{
             padding: 16px;
+            display: flex;
+            @include lg{
+                aside{
+                    padding-left: 350px;
+                    border: white;
+                }
+            }
         }
     }
     // display: grid;
