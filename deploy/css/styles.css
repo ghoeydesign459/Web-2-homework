@@ -529,6 +529,8 @@ footer section li button {
 #search input {
   border: none;
   background-color: transparent;
+  text-decoration: underline;
+  text-decoration-color: #93A8AC;
 }
 #search div {
   margin: 16px 0;
