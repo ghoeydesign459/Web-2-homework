@@ -30,6 +30,7 @@ footer {
     section {
         h1 {
             color: white;
+            display: flex;
         }
 
         p {
@@ -42,13 +43,25 @@ footer {
         }
 
         img {
+            display: flex;
+            padding-bottom: 6px;
             grid-area: footer;
             width: 27px;
 
             form{
                 padding-top: 48px;
                 padding-bottom: 16px;
+                background-color: white;
+                border: none;
             }
+        }
+
+        li{
+            button{
+                    background-color: transparent;
+                    border: none;
+            }
+            
         }
     }
 

@@ -489,6 +489,7 @@ footer p {
 }
 footer section h1 {
   color: white;
+  display: flex;
 }
 footer section p {
   color: white;
@@ -497,12 +498,20 @@ footer section h2 {
   color: white;
 }
 footer section img {
+  display: flex;
+  padding-bottom: 6px;
   grid-area: footer;
   width: 27px;
 }
 footer section img form {
   padding-top: 48px;
   padding-bottom: 16px;
+  background-color: white;
+  border: none;
+}
+footer section li button {
+  background-color: transparent;
+  border: none;
 }
 @media (min-width: 768px) {
   footer {
