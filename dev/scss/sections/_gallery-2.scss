@@ -34,7 +34,9 @@
         @include xxl{
             grid-template-columns: auto 1440px auto;
         }
-
+button{
+    margin-top: 48px;
+}
         ul {
             grid-area: gallery2-content;
             @include md {

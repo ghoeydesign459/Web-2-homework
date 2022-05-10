@@ -651,6 +651,9 @@ footer section img form {
     grid-template-columns: auto 1440px auto;
   }
 }
+#gallery-2 article button {
+  margin-top: 48px;
+}
 #gallery-2 article ul {
   grid-area: gallery2-content;
 }
