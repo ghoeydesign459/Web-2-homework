@@ -548,8 +548,12 @@ footer section li button {
   font-size: 1rem;
   text-align: left;
 }
-#hero #hero-img img {
-  width: 100%;
+#hero #hero-img {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/Hero/Lanvin-Hero.png");
+  background-size: cover;
+  background-position: center center;
 }
 #hero #lanvin-1 {
   background-color: #BE9168;
@@ -835,5 +839,17 @@ footer section li button {
   #buttons > div .button-content aside {
     padding-left: 350px;
     border: white;
+  }
+  #buttons > div .button-content aside img {
+    width: 85px;
+    height: 85px;
+    border-radius: 100%;
+    border: 3px solid white;
+  }
+}
+@media (min-width: 1024px) and (min-width: 768px) {
+  #buttons > div .button-content aside img {
+    width: 113px;
+    height: 113px;
   }
 }
