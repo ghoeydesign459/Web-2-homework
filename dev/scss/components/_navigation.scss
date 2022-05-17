@@ -2,12 +2,11 @@
     Navigation
 ============= */
 nav {
-
     display: none;
 	background-color: #3D3646;
 	height: 100vh;
 	padding: 16px;
-	position: absolute;
+	position: fixed;
 	right: 0;
 	top: 0;
 	width: 50vw;  
@@ -25,10 +24,14 @@ nav {
 		display: flex;
 		justify-content: flex-end;
 
+		@include lg{
+            display: none;
+        }
+
 		button {
 			background-color: transparent;
 			border: none;
-			color: red;
+			color: #889BAC;;
 		}
     }
         ul {
@@ -56,8 +59,7 @@ nav {
         }
 }
 
-a:link,
-            a:visited {
+a:link,a:visited {
 				color: #889BAC;
 				font-size: rem-calc(20);
 				font-weight: 300;
@@ -70,12 +72,12 @@ a:link,
 					color: white;;
 				}
 
-&:hover,
-            &:active {
+&:hover,&:active {
 					color: #B8C3C9;
 				}
 			}
 			&:first-child {
 				border: none;
 			}
+			
     }
