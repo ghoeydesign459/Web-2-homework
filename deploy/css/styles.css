@@ -477,54 +477,55 @@ nav aside {
 nav aside button {
   background-color: transparent;
   border: none;
-  color: var(--red);
+  color: red;
 }
-nav aside ul {
+nav ul {
   height: 100%;
   padding-top: 20%;
 }
 @media (min-width: 1024px) {
-  nav aside ul {
+  nav ul {
     align-items: center;
     display: flex;
     justify-content: flex-end;
     padding-top: 0;
   }
 }
-nav aside li {
+nav li {
   display: flex;
   justify-content: flex-end;
   margin-bottom: 24px;
   text-align: right;
 }
 @media (min-width: 1024px) {
-  nav aside li {
-    border-left: 1px solid var(--tan);
+  nav li {
     margin-bottom: 0;
     margin-left: 16px;
     padding-left: 24px;
   }
 }
-nav aside a:link,
-nav aside a:visited {
-  color: #B8C3C9;
+nav a:link,
+nav a:visited {
+  color: #889BAC;
   font-size: 1.25rem;
   font-weight: 300;
   text-decoration: none;
   transition: 0.25s;
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 @media (min-width: 1024px) {
-  nav aside a:link,
-nav aside a:visited {
-    color: var(--brown);
+  nav a:link,
+nav a:visited {
+    color: white;
   }
 }
-nav aside a:link:hover, nav aside a:link:active,
-nav aside a:visited:hover,
-nav aside a:visited:active {
+nav a:link:hover, nav a:link:active,
+nav a:visited:hover,
+nav a:visited:active {
   color: #B8C3C9;
 }
-nav aside:first-child {
+nav:first-child {
   border: none;
 }
 
@@ -548,28 +549,29 @@ header > div {
   grid-area: header;
   display: grid;
   grid-template-columns: 50% auto;
-  grid-template-areas: "burger-icon";
+  grid-template-areas: "logo burger";
 }
 @media (min-width: 1024px) {
   header > div {
-    grid-template-areas: "logo";
+    grid-template-areas: "logo nav";
   }
 }
-header > div #burger-icon {
+header > div #burger {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  color: white;
 }
 @media (min-width: 1024px) {
-  header > div #burger-icon {
+  header > div #burger {
     display: none;
   }
 }
-header > div #burger-icon button {
+header > div #burger button {
   border: none;
   background-color: transparent;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 /* =============
@@ -734,6 +736,7 @@ footer section img form {
     background-color: transparent;
     border: none;
     margin-left: auto;
+    align-items: center;
   }
 }
 @media (min-width: 768px) and (min-width: 1024px) {
@@ -746,6 +749,8 @@ footer section img form {
 @media (min-width: 768px) {
   #hero article > div button img {
     padding-left: 12px;
+    align-items: center;
+    margin-bottom: auto;
   }
 }
 
@@ -810,18 +815,16 @@ footer section img form {
 /* =============
     Gallery
 ============= */
-#gallery-2 header {
-  font-weight: 300;
-  font-size: 1.75rem;
-  margin-bottom: 16px;
-  text-align: left;
-  margin-left: 12px;
+#gallery-2 {
+  background-color: #F8F9FA;
 }
 #gallery-2 h1 {
   font-weight: 400;
   font-size: 1.5rem;
   text-align: left;
   margin-left: 12px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 #gallery-2 p {
   font-weight: 300;
@@ -972,16 +975,32 @@ footer section img form {
   padding-bottom: 6px;
 }
 #buttons #button-1 {
+  margin-bottom: 16px;
   background-color: #B8C3C9;
 }
 #buttons #button-1 button {
   padding-bottom: 6px;
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-top: 48px;
+  margin-left: 12px;
+  margin-bottom: 12px;
+  background-color: #889BAC;
+  border: none;
 }
 #buttons #button-2 {
+  margin-bottom: 16px;
   background-color: #B8C3C9;
 }
 #buttons #button-2 button {
   padding-bottom: 6px;
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-top: 48px;
+  margin-left: 12px;
+  margin-bottom: 12px;
+  background-color: #889BAC;
+  border: none;
 }
 @media (min-width: 1200px) {
   #buttons {
@@ -1014,6 +1033,7 @@ footer section img form {
   height: 85px;
   border-radius: 100%;
   border: 3px solid white;
+  align-items: center;
 }
 @media (min-width: 768px) {
   #buttons > div .button-content aside img {

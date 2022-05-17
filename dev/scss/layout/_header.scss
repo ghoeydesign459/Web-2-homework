@@ -14,21 +14,24 @@ header{
     }
 
 >div{
-grid-area: header;
-
+        grid-area: header;
         display: grid;
         grid-template-columns: 50% auto;
-        grid-template-areas: "burger-icon";
+        grid-template-areas: "logo burger";
 
         @include lg{
-            grid-template-areas: "logo";
-
+            grid-template-areas: "logo nav";
         }
 
-        #burger-icon{
+    #logo{
+        
+    }
+
+        #burger{
             display: flex;
             justify-content: flex-end;
             align-items: center;
+            color: white;
 
             @include lg{
                 display: none;
@@ -38,7 +41,7 @@ grid-area: header;
                 border: none;
                 background-color: transparent;
                 color: white;
-                font-size: rem-calc(24);
+                font-size: rem-calc(20);
             }
 }
 }

@@ -24,12 +24,13 @@ nav {
     aside {
 		display: flex;
 		justify-content: flex-end;
+
 		button {
 			background-color: transparent;
 			border: none;
-			color: var(--red);
+			color: red;
 		}
-
+    }
         ul {
             height: 100%;
             padding-top: 20%;
@@ -49,7 +50,6 @@ nav {
         text-align: right;
 
         @include lg {
-            border-left: 1px solid var(--tan);
             margin-bottom: 0;
             margin-left: 16px;
             padding-left: 24px;
@@ -58,14 +58,16 @@ nav {
 
 a:link,
             a:visited {
-				color: #B8C3C9;
+				color: #889BAC;
 				font-size: rem-calc(20);
 				font-weight: 300;
 				text-decoration: none;
 				transition: 0.25s;
+                font-weight: 700;
+                font-size: rem-calc(24);
 
 				@include lg {
-					color: var(--brown);
+					color: white;;
 				}
 
 &:hover,
@@ -77,4 +79,3 @@ a:link,
 				border: none;
 			}
     }
-}

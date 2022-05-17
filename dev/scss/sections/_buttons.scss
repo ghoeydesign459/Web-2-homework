@@ -11,17 +11,31 @@
     }
 
     #button-1{
-        
+        margin-bottom: 16px;
         button{
             padding-bottom: 6px;
+            font-weight:700;
+        font-size: rem-calc(14);
+    margin-top: 48px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+    background-color: #889BAC;
+    border: none;
         }
         background-color: #B8C3C9
     }
 
     #button-2{
-        
+        margin-bottom: 16px;
         button{
             padding-bottom: 6px;
+            font-weight:700;
+        font-size: rem-calc(14);
+    margin-top: 48px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+    background-color: #889BAC;
+    border: none;
         }
         background-color: #B8C3C9
     }
@@ -46,16 +60,17 @@
 
         .button-content{
             padding: 16px;
-
             display: flex;
+            
             aside{
                 padding-left: 200px;
                 border: white;
                 img{
-                    width: 85px;
+                width: 85px;
                 height: 85px;
                 border-radius: 100%;
                 border: 3px solid white;
+                align-items: center;
 
                 @include md{
                     width: 113px;
