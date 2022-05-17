@@ -24,16 +24,55 @@
 
 <body>
     <header>
-        <img src="img/Header/LanvinHeaderLogo.svg" alt="Logo">
+        <div>
+            <section id="logo">
+                <img src="img/Header/LanvinHeaderLogo.svg" alt="Logo">
+            </section>
+        
+    
+        <aside id="burger">
+            <button id="burger-icon">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            
+        </aside>
+    
+        <!-- Import the nav kit file here -->
+            <nav id="navigation">
+                <aside class="hide-for-lg">
+                   <button id="x-button">
+                        <i class="fa-solid fa-xmark-large"></i>
+                   </button> 
+                </aside>
+            
+                <ul>
+                   <li>
+                       <a href="#">History of Lanvin</a>
+                    </li>
+                   <li>
+                       <a href="#">Menswear</a>
+                    </li>
+                   <li>
+                       <a href="#">Womenswear</a>
+                    </li>
+                   <li>
+                       <a href="#">Find Your Fit</a>
+                    </li>
+                </ul>
+                
+            </nav>
+        </div> 
     </header>
      <section id="search" class="global-content spacing">
              <div>
                  <form action="input">
                     <input type="text" placeholder="Search Lanvin">
+         
                     
                      <button>
                          <img src="img/Search/Shape.svg" alt="search">
                      </button>
+                   
                  </form>
                
              </div>

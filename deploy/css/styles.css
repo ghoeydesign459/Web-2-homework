@@ -450,16 +450,126 @@ textarea {
 /* =============
     Navigation
 ============= */
+nav {
+  display: none;
+  background-color: #3D3646;
+  height: 100vh;
+  padding: 16px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50vw;
+}
+@media (min-width: 1024px) {
+  nav {
+    background-color: #3D3646;
+    display: block;
+    height: 100%;
+    padding: 0;
+    position: relative;
+    width: 100%;
+  }
+}
+nav aside {
+  display: flex;
+  justify-content: flex-end;
+}
+nav aside button {
+  background-color: transparent;
+  border: none;
+  color: var(--red);
+}
+nav aside ul {
+  height: 100%;
+  padding-top: 20%;
+}
+@media (min-width: 1024px) {
+  nav aside ul {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0;
+  }
+}
+nav aside li {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 24px;
+  text-align: right;
+}
+@media (min-width: 1024px) {
+  nav aside li {
+    border-left: 1px solid var(--tan);
+    margin-bottom: 0;
+    margin-left: 16px;
+    padding-left: 24px;
+  }
+}
+nav aside a:link,
+nav aside a:visited {
+  color: #B8C3C9;
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-decoration: none;
+  transition: 0.25s;
+}
+@media (min-width: 1024px) {
+  nav aside a:link,
+nav aside a:visited {
+    color: var(--brown);
+  }
+}
+nav aside a:link:hover, nav aside a:link:active,
+nav aside a:visited:hover,
+nav aside a:visited:active {
+  color: #B8C3C9;
+}
+nav aside:first-child {
+  border: none;
+}
+
 /* =============
     Header
 ============= */
 header {
-  grid-area: header;
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". header .";
+  padding: 24px 16px;
+  width: 100%;
   background-color: #3D3646;
-  padding: 16px auto 16px;
 }
-header img {
-  padding: 16px;
+@media (min-width: 1440px) {
+  header {
+    grid-template-columns: auto 1440px auto;
+  }
+}
+header > div {
+  grid-area: header;
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-areas: "burger-icon";
+}
+@media (min-width: 1024px) {
+  header > div {
+    grid-template-areas: "logo";
+  }
+}
+header > div #burger-icon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+@media (min-width: 1024px) {
+  header > div #burger-icon {
+    display: none;
+  }
+}
+header > div #burger-icon button {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 1.5rem;
 }
 
 /* =============
@@ -552,10 +662,10 @@ footer section img form {
 #search div button {
   border: none;
   border-radius: 5px;
-  background-color: #BE9168;
-  margin-left: 12px;
+  margin-left: 60px;
   height: 50px;
   width: 60px;
+  background-color: #BE9168;
 }
 @media (min-width: 768px) {
   #search div button {

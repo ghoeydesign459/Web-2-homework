@@ -2,10 +2,44 @@
     Header
 ============= */
 header{
-    grid-area: header;
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". header .";
+    padding: 24px 16px ;
+    width: 100%;
     background-color: #3D3646;
-    padding: 16px auto 16px;
-    img{
-        padding: 16px;
+    
+    @include xxl{
+        grid-template-columns: auto 1440px auto;
     }
-  }
+
+>div{
+grid-area: header;
+
+        display: grid;
+        grid-template-columns: 50% auto;
+        grid-template-areas: "burger-icon";
+
+        @include lg{
+            grid-template-areas: "logo";
+
+        }
+
+        #burger-icon{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            @include lg{
+                display: none;
+            }
+
+            button{
+                border: none;
+                background-color: transparent;
+                color: white;
+                font-size: rem-calc(24);
+            }
+}
+}
+}
